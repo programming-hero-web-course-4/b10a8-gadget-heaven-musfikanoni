@@ -6,12 +6,13 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Header from './component/Header/Header';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
-  },
+    element: <Header></Header>
+  }
 ])
 
 createRoot(document.getElementById('root')).render(
