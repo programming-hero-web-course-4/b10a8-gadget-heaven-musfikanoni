@@ -1,0 +1,138 @@
+[
+    {
+        "product_id": "01",
+        "product_title": "MacBook Air 13-inch M1",
+        "product_image": "https://i.ibb.co.com/j3rSt9w/laptop-1.jpg",
+        "category": "Laptop",
+        "price": 999.99,
+        "description": "Lightweight and efficient, powered by Apple's M1 chip.",
+        "Specification": ["13.3-inch Retina Display", "Apple M1 chip", "8GB RAM", "256GB SSD", "18-hour battery life"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "02",
+        "product_title": "MacBook Pro 13-inch M1",
+        "product_image": "https://i.ibb.co.com/x1MCV9D/laptop-2.jpg",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "Compact and powerful with Apple's M1 chip, ideal for professionals.",
+        "Specification": ["13.3-inch Retina Display", "Apple M1 chip", "8GB RAM", "512GB SSD", "20-hour battery life"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "03",
+        "product_title": "MacBook Pro 14-inch M1 Pro",
+        "product_image": "https://i.ibb.co.com/x25Z7xB/laptop-3.jpg",
+        "category": "Laptop",
+        "price": 1999.99,
+        "description": "Advanced performance with the M1 Pro chip for demanding workflows.",
+        "Specification": ["14-inch Liquid Retina XDR Display", "Apple M1 Pro chip", "16GB RAM", "512GB SSD", "17-hour battery life"],
+        "availability": true,
+        "rating": 5
+    },
+    {
+        "product_id": "04",
+        "product_title": "MacBook Pro 16-inch M1 Max",
+        "product_image": "https://i.ibb.co.com/nMMsRv9/laptop-4.jpg",
+        "category": "Laptop",
+        "price": 2499.99,
+        "description": "High-end laptop with the M1 Max chip for creative professionals.",
+        "Specification": ["16-inch Liquid Retina XDR Display", "Apple M1 Max chip", "32GB RAM", "1TB SSD", "21-hour battery life"],
+        "availability": true,
+        "rating": 5.0
+    },
+    {
+        "product_id": "05",
+        "product_title": "MacBook Air 15-inch M2",
+        "product_image": "https://i.ibb.co.com/HqhZb9J/laptop-5.jpg",
+        "category": "Laptop",
+        "price": 1199.99,
+        "description": "Lightweight, efficient laptop with a large display and M2 chip.",
+        "Specification": ["15.3-inch Retina Display", "Apple M2 chip", "8GB RAM", "256GB SSD", "18-hour battery life"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "06",
+        "product_title": "MacBook Pro 16-inch Intel i9",
+        "product_image": "https://i.ibb.co.com/f0fN2nv/laptop-6.jpg",
+        "category": "Laptop",
+        "price": 2399.99,
+        "description": "For professionals needing Intel processors, with a large display.",
+        "Specification": ["16-inch Retina Display", "Intel Core i9", "16GB RAM", "1TB SSD", "11-hour battery life"],
+        "availability": false,
+        "rating": 5
+    },
+
+    {
+        "product_id": "07",
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://i.ibb.co.com/Qrkcpzk/iphone-1.jpg",
+        "category": "Smartphone",
+        "price": 999.99,
+        "description": "Advanced smartphone with ProMotion display and A16 Bionic chip.",
+        "Specification": ["6.1-inch OLED Display", "A16 Bionic Chip", "128GB Storage", "48MP Camera", "iOS 16"],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "08",
+        "product_title": "iPhone 14",
+        "product_image": "https://i.ibb.co.com/W54D6SJ/iphone-2.jpg",
+        "category": "Smartphone",
+        "price": 799.99,
+        "description": "Versatile iPhone with powerful performance and long battery life.",
+        "Specification": ["6.1-inch OLED Display", "A15 Bionic Chip", "128GB Storage", "12MP Dual Camera", "iOS 16"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "09",
+        "product_title": "iPhone SE (2022)",
+        "product_image": "https://i.ibb.co.com/JBLsfQB/iphone-3.jpg",
+        "category": "Smartphone",
+        "price": 429.99,
+        "description": "Compact and affordable iPhone with Touch ID and powerful performance.",
+        "Specification": ["4.7-inch Retina Display", "A15 Bionic Chip", "64GB Storage", "12MP Camera", "iOS 16"],
+        "availability": false,
+        "rating": 4.5
+    },
+
+    {
+        "product_id": "10",
+        "product_title": "AirPods Pro (2nd G)",
+        "product_image": "https://i.ibb.co.com/TBJhCsM/airpods-1.jpg",
+        "category": "Wireless Earbuds",
+        "price": 249.99,
+        "description": "High-quality noise-canceling earbuds with spatial audio support.",
+        "Specification": ["Active Noise Cancellation", "Transparency Mode", "Spatial Audio", "6 hours listening time", "MagSafe Charging Case"],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "11",
+        "product_title": "AirPods (3rd G)",
+        "product_image": "https://i.ibb.co.com/3vKHBTh/airpods-2.jpg",
+        "category": "Wireless Earbuds",
+        "price": 179.99,
+        "description": "Enhanced sound experience with spatial audio in a compact design.",
+        "Specification": ["Adaptive EQ", "Spatial Audio", "6 hours listening time", "Sweat and water resistant", "MagSafe Charging Case"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "12",
+        "product_title": "AirPods Max",
+        "product_image": "https://i.ibb.co.com/xHZVZj7/airpods-3.jpg",
+        "category": "Over-Ear Headphones",
+        "price": 549.99,
+        "description": "High-fidelity over-ear headphones with active noise cancellation.",
+        "Specification": ["High-Fidelity Audio", "Active Noise Cancellation", "Transparency Mode", "20 hours listening time", "Memory Foam Ear Cushions"],
+        "availability": false,
+        "rating": 4.9
+    }
+
+    
+]

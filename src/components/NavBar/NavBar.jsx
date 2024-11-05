@@ -1,10 +1,11 @@
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
         <div>
-            <nav class="lg:w-11/12 mx-auto lg:py-4 mt-5 rounded-t-3xl bg-purple-500">
+            <nav class="lg:w-11/12 mx-auto lg:py-4 mt-5 rounded-t-3xl bg-[#9538E2]">
                 <div class=" lg:w-10/12 mx-auto navbar flex max-w-full justify-between">
                     <div class="navbar-start flex lg:w-10/12 md:justify-normal justify-between md:w-6/12 w-full">
                         <div class="flex items-center gap-2">
@@ -43,9 +44,9 @@ const NavBar = () => {
                     </div>
                     <div class="navbar-center lg:ml-[-200px] hidden md:block lg:flex">
                         <ul class="menu menu-horizontal text-base">
-                        <li><a class="font-normal text-white">Home</a></li>
-                        <li><a class="font-normal text-white">Shop</a></li>
-                        <li><a class="font-normal text-white">Contact</a></li>
+                            <li class="font-normal text-white bg-transparent"><NavLink to="/">Home</NavLink></li>
+                            <li><a class="font-normal text-white"><NavLink>Statistics</NavLink></a></li>
+                            <li><a class="font-normal text-white"><NavLink>Dashboard</NavLink></a></li>
                         </ul>
                     </div>
                     <div class="navbar-end hidden md:block">
