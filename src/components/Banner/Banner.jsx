@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="lg:w-11/12 mx-auto">
+        <div className="mb-60 lg:w-11/12 mx-auto">
             <div className="">
                 <div className="bg-[#9538E2] rounded-b-3xl">
                     <div className="lg:w-9/12 mx-auto pt-6">

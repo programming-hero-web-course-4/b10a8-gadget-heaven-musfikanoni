@@ -11,6 +11,7 @@ import Root from './components/Root/Root';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
+import GadgetDetails from './components/GadgetDetails/GadgetDetails';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "gadget/:gadgetId",
+        element:<GadgetDetails></GadgetDetails>
       },
       {
         path: "dashboard",

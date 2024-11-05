@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
     return (
         <div>
-            <nav class="lg:w-11/12 mx-auto lg:py-4 mt-5 rounded-t-3xl bg-[#9538E2]">
-                <div class=" lg:w-10/12 mx-auto navbar flex max-w-full justify-between">
+            <nav class="lg:w-11/12 mx-auto mt-5 lg:py-4 rounded-t-3xl bg-[#9538E2]">
+                <div class=" lg:w-11/12 mx-auto navbar flex max-w-full justify-between">
                     <div class="navbar-start flex lg:w-10/12 md:justify-normal justify-between md:w-6/12 w-full">
                         <div class="flex items-center gap-2">
                         <span class="lg:ps-0 ps-5">

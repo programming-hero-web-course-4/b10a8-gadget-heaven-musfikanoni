@@ -28,7 +28,7 @@
         "category": "Laptop",
         "price": 1999.99,
         "description": "Advanced performance with the M1 Pro chip for demanding workflows.",
-        "Specification": ["14-inch Liquid Retina XDR Display", "Apple M1 Pro chip", "16GB RAM", "512GB SSD", "17-hour battery life"],
+        "Specification": ["14-inch XDR Display", "Apple M1 Pro chip", "16GB RAM", "512GB SSD", "17-hour battery life"],
         "availability": true,
         "rating": 5
     },
@@ -39,7 +39,7 @@
         "category": "Laptop",
         "price": 2499.99,
         "description": "High-end laptop with the M1 Max chip for creative professionals.",
-        "Specification": ["16-inch Liquid Retina XDR Display", "Apple M1 Max chip", "32GB RAM", "1TB SSD", "21-hour battery life"],
+        "Specification": ["16-inch Retina XDR Display", "Apple M1 Max chip", "32GB RAM", "1TB SSD", "21-hour battery life"],
         "availability": true,
         "rating": 5.0
     },
