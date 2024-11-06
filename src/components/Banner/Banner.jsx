@@ -16,7 +16,7 @@ const Banner = () => {
                 </div>
 
                 <div className="lg:w-11/12 mx-auto -mt-72">
-                    <div className=" w-9/12 border border-white rounded-3xl mw-5xl h-[55vh] mx-auto z-10 relative bg-slate-100 bg-opacity-10 px-5 py-4">
+                    <div className=" w-9/12 border border-white rounded-3xl mw-5xl h-[55vh] mx-auto z-10 relative bg-slate-100 bg-opacity-10 px-5 py-5">
                         <img className="rounded-3xl w-full h-[563px] object-cover" src="images/banner.jpg" alt="" />
                     </div>       
                 </div>

@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="mt-5">
             <div className="lg:w-10/12 mx-auto py-8">
                 <div className="flex flex-col justify-center gap-y-4">
                     <h1 className="font-bold text-center text-3xl text-[#09080F]">Gadget Heaven</h1>

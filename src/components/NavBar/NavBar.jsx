@@ -44,9 +44,9 @@ const NavBar = () => {
                     </div>
                     <div class="navbar-center lg:ml-[-200px] hidden md:block lg:flex">
                         <ul class="menu menu-horizontal text-base">
-                            <li class="font-normal text-white bg-transparent"><NavLink to="/">Home</NavLink></li>
-                            <li><a class="font-normal text-white"><NavLink>Statistics</NavLink></a></li>
-                            <li><a class="font-normal text-white"><NavLink>Dashboard</NavLink></a></li>
+                            <li class="font-normal text-white "><NavLink to="/">Home</NavLink></li>
+                            <li class="font-normal text-white"><NavLink to="/statistics">Statistics</NavLink></li>
+                            <li class="font-normal text-white"><NavLink to="/dashboard">Dashboard</NavLink></li>
                         </ul>
                     </div>
                     <div class="navbar-end hidden md:block">

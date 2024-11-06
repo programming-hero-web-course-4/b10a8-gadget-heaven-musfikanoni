@@ -10,7 +10,7 @@ const Gadgets = () => {
         fetch('./allProducts.json')
         .then(res => res.json())
         .then(data => setgadgets(data))
-    }, [])
+    }, []);
 
     return (
         <div className="bg-[#F6F6F6]">
