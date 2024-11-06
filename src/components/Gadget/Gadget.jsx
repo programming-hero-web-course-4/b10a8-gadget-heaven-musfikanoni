@@ -19,7 +19,7 @@ const Gadget = ( {gadget} ) => {
                     <p className="text-[#09080f98]">{category}</p>
                     <p className="text-[#09080f98]">{description}</p>
                     <p>{Specification}</p>
-                    <h3>{availability == true ? 'In Stock' : 'Out Stock'}</h3>
+                    <h3 className="border border-green-400 text-green-600 bg-green-200 px-3 py-1 rounded-full max-w-[90px]">{availability == true ? 'In Stock' : 'Out Stock'}</h3>
                     <div className="">
                         <h4 className="font-medium text-[#09080f98] text-lg">Price: ${price}</h4>
                         <div className="flex items-center gap-2 pb-5">
