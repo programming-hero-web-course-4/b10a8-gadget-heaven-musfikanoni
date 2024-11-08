@@ -5,23 +5,28 @@ import { TiStarHalfOutline } from "react-icons/ti";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 // import { addStoreCartList } from "../../utility/addToDb";
-import { addToCart } from "../../utilites/addToCart";
+import { addToCart, addToWish } from "../../utilites/addToCart";
 
 const GadgetDetails = () => {
     const { gadgetId } = useParams();
-    const id = parseInt(gadgetId);
+    // const id = parseInt(gadgetId);
     const data = useLoaderData();
 
     const gadget = data.find(gadget => gadget.product_id === gadgetId)
 
     console.log(gadget);
+    if(!gadget){
+        return'Not available';
+    }
     const {product_id, product_title, product_image, category,
         price, description, Specification, availability, rating} = gadget;
 
-        const handleCart = (id) => {
+        const handleCart = () => {
+            addToCart(product_id, price);
+        }
 
-            
-            addToCart(id)
+        const handleAddToWishList = () =>{
+            addToWish(product_id)
         }
 
     return (
@@ -57,8 +62,8 @@ const GadgetDetails = () => {
                             </div>
                         </div> 
                         <div className="card-actions justify-start flex">
-                                <button onClick={() => handleCart(gadgetId)} className="btn font-semibold text-lg rounded-full text-white bg-[#9538E2] hover:text-[#9538E2]">Add To Card <BsCart3></BsCart3></button>
-                            <div className="bg-white text-xl border border-[#0b0b0b49] text-[#3A3A3A] rounded-full p-3">
+                                <button onClick={handleCart()} className="btn font-semibold text-lg rounded-full text-white bg-[#9538E2] hover:text-[#9538E2]">Add To Card <BsCart3></BsCart3></button>
+                            <div onClick={handleAddToWishList()} className="bg-white text-xl border border-[#0b0b0b49] text-[#3A3A3A] rounded-full p-3">
                                 <FaRegHeart></FaRegHeart>
                             </div>
                         </div>
