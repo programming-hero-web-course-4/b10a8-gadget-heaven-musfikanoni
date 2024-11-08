@@ -59,6 +59,7 @@ const addToWish = (id) => {
 
     if (storedWishList.includes(id)) {
         toast('Already exists!');
+        
     }
     else {
         storedWishList.push(id);

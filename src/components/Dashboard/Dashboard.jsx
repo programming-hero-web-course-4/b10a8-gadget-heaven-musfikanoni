@@ -94,11 +94,11 @@ const Dashboard = () => {
         <div>
           <Tabs>
             <TabList className='text-center mt-6 font-bold flex justify-center gap-6'>
-              <Tab className="rounded-full focus:outline-none focus:ring-white focus:text-[#9538E2]" selectedClassName='bg-white text-'>
-                <button className=" py-4 px-16 mr-6 text-white border rounded-full border-white btn-outline focus:text-[#9538E2] hover:bg-white hover:border-none hover:text-[#9538E2] outline-[#9538E2] ">Cart</button>
+              <Tab className="rounded-full focus:outline-none focus:ring-white focus:text-[#9538E2]">
+                <button className=" py-4 px-16 mr-6 border rounded-full border-white btn-outline focus:text-[#9538E2] hover:bg-white hover:border-none hover:text-[#9538E2] outline-[#9538E2] ">Cart</button>
               </Tab>
-              <Tab className="rounded-full focus:outline-none focus:ring-white focus:text-[#9538E2]" selectedClassName='bg-white text-[#9538E2]'>
-                <button className="btn-outline border rounded-full outline-[#9538E2] border-white text-white focus:text-[#9538E2] hover:text-[#9538E2] py-4 px-16">Wishlist</button>
+              <Tab className="rounded-full focus:outline-none focus:ring-white focus:text-[#9538E2]">
+                <button className="btn-outline border rounded-full outline-[#9538E2] border-white  focus:text-[#9538E2] hover:text-[#9538E2] py-4 px-16">Wishlist</button>
               </Tab>
             </TabList>
 
