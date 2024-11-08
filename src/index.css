@@ -9,6 +9,31 @@ body {
     font-family: "Sora", sans-serif;
 }
 
+.react-tabs__tab {
+  border: 1px solid white !important;
+  border-radius: 50px;
+  color: white;
+  padding: 7px 25px !important;
+}
+
+.react-tabs__tab--selected{
+    background-color: rgb(255, 255, 255) !important;
+    color: #9538E2 !important;
+    border-radius: 50px !important;
+    border: none !important;
+}
+.active-btn {
+  background-color: #9538E2 !important;
+  color: white !important;
+}
+
+
+.tabs-boxed :is(.tab-active, [aria-selected="true"]):not(.tab-disabled):not([disabled]), .tabs-boxed :is(input:checked) {
+  --tw-bg-opacity: 1;
+  background-color: #C7C8C8 !important;
+  --tw-text-opacity: 1;
+  color: #9538E2 !important;
+}
 /* .nav-icon {
   background-color: white;
   border: 1px solid gray;

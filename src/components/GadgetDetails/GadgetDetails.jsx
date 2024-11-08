@@ -1,9 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { TiStarFullOutline } from "react-icons/ti";
 import { TiStarHalfOutline } from "react-icons/ti";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
+// import { addStoreCartList } from "../../utility/addToDb";
+import { addToCart } from "../../utilites/addToCart";
 
 const GadgetDetails = () => {
     const { gadgetId } = useParams();
@@ -15,6 +17,12 @@ const GadgetDetails = () => {
     console.log(gadget);
     const {product_id, product_title, product_image, category,
         price, description, Specification, availability, rating} = gadget;
+
+        const handleCart = (id) => {
+
+            
+            addToCart(id)
+        }
 
     return (
         <div>
@@ -49,9 +57,7 @@ const GadgetDetails = () => {
                             </div>
                         </div> 
                         <div className="card-actions justify-start flex">
-                            <Link>
-                                <button className="btn font-semibold text-lg rounded-full text-white bg-[#9538E2] hover:text-[#9538E2]">Add To Card <BsCart3></BsCart3></button>
-                            </Link>
+                                <button onClick={() => handleCart(gadgetId)} className="btn font-semibold text-lg rounded-full text-white bg-[#9538E2] hover:text-[#9538E2]">Add To Card <BsCart3></BsCart3></button>
                             <div className="bg-white text-xl border border-[#0b0b0b49] text-[#3A3A3A] rounded-full p-3">
                                 <FaRegHeart></FaRegHeart>
                             </div>

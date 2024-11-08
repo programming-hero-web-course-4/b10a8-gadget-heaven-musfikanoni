@@ -12,9 +12,15 @@ const Gadgets = () => {
         .then(data => setgadgets(data))
     }, []);
 
+    // useEffect(() =>{
+    //     fetch('./categories.json')
+    //     .then(res => res.json())
+    //     .then(data => console.log)
+    // }, [])
+
     return (
         <div className="bg-[#F6F6F6]">
-`            <div className="lg:w-10/12 mx-auto">
+            <div className="lg:w-10/12 mx-auto">
                 <h2 className="text-center pt-5 font-bold text-[40px] text-[#0B0B0B] ">Explore Cutting-Edge Gadgets</h2>
                 <div className="flex justify-between pt-10 gap-8">
                     <div className="w-[18%]"><Category></Category></div>
@@ -25,7 +31,7 @@ const Gadgets = () => {
                         }
                     </div>
                 </div>
-            </div>`
+            </div>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Gadget = ( {gadget} ) => {
 
     const {product_id, product_title, product_image, category,
-        price, description, Specification, availability, rating} = gadget;
+        price, description, Specification, availability, rating} = gadget || {};
 
     return (
         <div>
